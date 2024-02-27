@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Countdown Timer styles */
+.countdown-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.countdown-input {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.countdown-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.countdown-button:hover {
+  background-color: #0056b3;
+}
+
+/* User Info styles */
+.user-info-container {
+  margin-top: 50px;
+}
+
+.user-info-input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.user-info-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-info-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-info-item strong {
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust Countdown Timer styles for smaller screens */
+  .countdown-container {
+    margin-top: 30px;
+  }
+
+  .countdown-input {
+    width: 80px;
+  }
+
+  /* Adjust User Info styles for smaller screens */
+  .user-info-input {
+    width: 150px;
+  }
+}
